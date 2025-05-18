@@ -1,35 +1,35 @@
-[
+输入：]
   {
-    "kernelSource": {
-      "name": "yasea",
-      "repo": "https://github.com/begeekmyfriend/yasea",
-      "branch": "main",
-      "device": "cepheus",
-      "defconfig": "cepheus_defconfig"
+    "内核源": {
+      "名字": "亚塞亚"输入：
+      "仓库": "https://github.com/wxf617/yasea",
+      “分支”：“主”，
+      "设备"：" cepheus"，
+      默认配置： cepheus_默认配置
     },
-    "toolchains": [
+    "工具链"：[
       {
-        "name": "proton-clang",
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
-        "binaryEnv": ["./bin"]
-      }
-    ],
-    "enableCcache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "clang",
-      "externalCommands": {
+        "名称": "质子-clang",
+        "仓库": "https://github.com/kdrag0n/proton-clang",
+        “分支”："主分支",
+        "二进制环境": ["./bin"]
+      输入： 输入：输入：输入：输入：输入：}
+    ]，
+    "启用Ccache"：真，
+    "参数": {
+      "架构"："arm64"
+      "抄送": "clang"
+      “外部命令”：{
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
         "CLANG_TRIPLE": "aarch64-linux-gnu-"
-      }
+      输入： }
     },
     "AnyKernel3": {
-      "use": false,
-      "release": true
+      “使用”假
+      发布：真
     },
-    "enableKernelSU": false,
-    "enableLXC": false
-  }
-]
+    启用内核超级用户： 假，
+    "启用LXC"：      假"启用LXC"：    
+  输入：}
+输入：]
